@@ -9,12 +9,10 @@ header {
     display: flex;
     align-items: center;
     height: 5em;
-    max-width: 75em;
     margin: 0px auto;
 }
 
 section {
-    max-width: 75em;
     margin: 0px auto;
     border-radius: 3px;
 }
@@ -25,7 +23,7 @@ section {
 
 .constrain {
     margin: 0px auto;
-    max-width: 75em;
+    max-width: 45em;
 }
 
 .header-profile {
@@ -62,6 +60,6 @@ hr {
     height: 1px;
     border: 0;
     border-top: 2px solid #eceff4;
-    margin: 1em 0;
+    margin: 0 0;
     padding: 0;
 }
