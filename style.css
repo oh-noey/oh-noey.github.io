@@ -8,8 +8,9 @@ body {
 header {
     display: flex;
     align-items: center;
-    height: 5em;
     margin: 0px auto;
+    font-size: 2.5em;
+    margin-top: .5em;
 }
 
 section {
@@ -23,7 +24,8 @@ section {
 
 .constrain {
     margin: 0px auto;
-    max-width: 45em;
+    max-width: 55em;
+    padding: 0 5em;
 }
 
 .header-profile {
@@ -33,7 +35,7 @@ section {
 .card{
     border-left-style: dashed;
     border-color: #88c0d0;
-    border-width: 2px;
+    border-width: .15em;
     padding: .25em 1.25em;
 }
 
@@ -44,6 +46,9 @@ section {
 .author {
     color: #e5e9f0;
     font-size: .8em;
+    font-weight: normal;
+}
+h1, h3 {
     font-weight: normal;
 }
 
@@ -62,4 +67,9 @@ hr {
     border-top: 2px solid #eceff4;
     margin: 0 0;
     padding: 0;
+}
+
+code {
+    background-color: #3b4252;
+    padding: .2em;
 }
