@@ -72,4 +72,11 @@ hr {
 code {
     background-color: #3b4252;
     padding: .2em;
+    margin: 0 .2em;
+}
+
+.skill-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
