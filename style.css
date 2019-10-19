@@ -100,5 +100,9 @@ header i{
 }
 
 ::selection {
-  background: #d6f9dd;
+  background-color: #d6f9dd;
+}
+
+code::selection,h2::selection {
+    color: #2c363f;
 }
