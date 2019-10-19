@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-    background-color: #2e3440;
-    color: #eceff4;
+    background-color: #ffffff;
+    color: #2c363f;
 }
 
 header {
@@ -33,10 +33,9 @@ section {
 }
 
 .card{
-    border-left-style: dashed;
-    border-color: #88c0d0;
-    border-width: .15em;
     padding: .25em 1.25em;
+    background-color: #fbf9ff;
+    box-shadow: .25em .25em #b3b7ee;
 }
 
 .card:not(:last-child){
@@ -44,7 +43,6 @@ section {
 }
 
 .author {
-    color: #e5e9f0;
     font-size: .8em;
     font-weight: normal;
 }
@@ -57,6 +55,7 @@ h1 {
 }
 h2 {
     font-size: 1.75em;
+    color: #b3b7ee;
 }
 h3 {
     font-size: 1.5em;
@@ -80,8 +79,9 @@ hr {
 }
 
 code {
-    background-color: #3b4252;
+    background-color: #9395d3;
     padding: .2em;
+    color: #fbf9ff;
 }
 
 .skill-box {
@@ -93,4 +93,12 @@ code {
 
 .skill-box code{
     margin: .2em;
+}
+
+header i{
+    color: #9395d3;
+}
+
+::selection {
+  background: #d6f9dd;
 }
